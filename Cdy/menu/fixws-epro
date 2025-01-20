@@ -23,7 +23,7 @@ echo -e  "\033[5;32mSucces\033[0m"
 sleep 1
 menu
 }
-REPO=https://raw.githubusercontent.comTylique/sigma1/main/
+REPO=https://raw.githubusercontent.com/Tylique/sigma1/main/
 echo -e  "\033[5;32mloading...\033[0m"
 wget -O /usr/bin/ws "${REPO}Fls/ws" >/dev/null 2>&1
 wget -O /usr/bin/tun.conf "${REPO}Cfg/tun.conf" >/dev/null 2>&1

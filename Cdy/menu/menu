@@ -12,10 +12,10 @@ MYIP=$(curl -sS ipv4.icanhazip.com)
 ######################################
 # // USERNAME IZIN IPP
 rm -f /usr/bin/user
-username=$(curl -sS https://raw.githubusercontent.comTylique/sigma1/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl -sS https://raw.githubusercontent.com/Tylique/sigma1/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 rm -f /usr/bin/e
-valid=$(curl -sS https://raw.githubusercontent.comTylique/sigma1/main/ip | grep $MYIP | awk '{print $3}')
+valid=$(curl -sS https://raw.githubusercontent.com/Tylique/sigma1/main/ip | grep $MYIP | awk '{print $3}')
 echo "$valid" > /usr/bin/e
 
 
@@ -188,7 +188,7 @@ case $hallo in
 5) clear ; m-noobz ;; # menu noobz
 6) clear ; m-ssr ;; # menu sadowsocks
 7) clear ; m-bot ;; # menu bot telegram
-8) clear ; wget -q https://raw.githubusercontent.comTylique/sigma1/main/update.sh && bash update.sh ;; #Update script
+8) clear ; wget -q https://raw.githubusercontent.com/Tylique/sigma1/main/update.sh && bash update.sh ;; #Update script
 9) clear ; m-bkp ;; # menu backup
 10) clear ; m-ftr ;; # menu managers
 x) exit ;;
